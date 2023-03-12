@@ -1,0 +1,47 @@
+video {
+    position: fixed;
+    width: auto;
+    height: auto;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    background-color: whitesmoke;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-container{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    margin: auto;
+    border: 1px solid white;   
+    border-radius: 4px;
+    padding: 20px 40px;
+}
+
+input:focus{
+    outline: none;
+    color: white;
+    background-color: steelblue;
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+ button {
+     width: 80px;
+     height: 30px;
+     padding: 5px;
+     font-size: 18px;
+     border: none;
+     margin: 15px;
+     cursor: pointer;
+     border-radius: 2px;
+     background-color: #AF66F2;
+     color: white;
+ }
